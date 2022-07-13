@@ -1,5 +1,3 @@
-
-
 import express from "express";
 import mongoose from "mongoose";
 import blogRouter from "./routes/blog-routes";
@@ -12,7 +10,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 mongoose
   .connect(
-    "mongodb+srv://dipti:Ketevans0099@cluster0.iy4sgjp.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://dipti:yAMH5925ImSdUfPp@cluster0.iy4sgjp.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => app.listen(5000))
   .then(() =>
